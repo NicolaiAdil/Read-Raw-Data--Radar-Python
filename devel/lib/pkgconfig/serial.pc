@@ -1,0 +1,8 @@
+prefix=/home/ascend/radar/Read-Raw-Data--Radar-Python/devel
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/ascend/radar/Read-Raw-Data--Radar-Python/ros_driver/src/serial/include
+Libs: -L${prefix}/lib -lserial -lrt -lpthread
+Requires: 

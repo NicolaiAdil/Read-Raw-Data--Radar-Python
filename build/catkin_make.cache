@@ -1,0 +1,2 @@
+src/serial:src/ti_mmwave_rospkg:src/ti_mmwave_tracker_rospkg
+-DCATKIN_DEVEL_PREFIX=/home/ascend/radar/Read-Raw-Data--Radar-Python/devel -DCMAKE_INSTALL_PREFIX=/home/ascend/radar/Read-Raw-Data--Radar-Python/install -G Unix Makefiles

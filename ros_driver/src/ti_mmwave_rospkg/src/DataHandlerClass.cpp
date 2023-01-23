@@ -533,6 +533,8 @@ void *DataUARTHandler::sortIncomingData( void )
                     // radarscan.doppler_bin = tmp;
                     // radarscan.bearing = temp[6];
                     // radarscan.intensity = temp[5];
+
+                    radarscan.intensity = (float) mmwData.sideInfo.snr / 10.0;
                     
 
                     // For SDK 3.x, intensity is replaced by snr in sideInfo and is parsed in the READ_SIDE_INFO code
